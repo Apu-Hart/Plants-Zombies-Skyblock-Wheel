@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "pvzkongdao",
+	"version": "${version}",
+	"name": "植物大战僵尸转盘空岛",
+	"description": "基于 Plants & Zombies 的空岛生存附属：转盘抽奖、阳光经济、十波尸潮。",
+	"authors": [
+		"Apu-Hart"
+	],
+	"contact": {},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/pvzkongdao/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"apuhart.pvzkongdao.PvzKongdao"
+		],
+		"client": [
+			"apuhart.pvzkongdao.client.PvzKongdaoClient"
+		]
+	},
+	"mixins": [
+		"pvzkongdao.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1-",
+		"java": ">=25",
+		"fabric-api": "*",
+		"plantz": ">=1.4"
+	}
+}

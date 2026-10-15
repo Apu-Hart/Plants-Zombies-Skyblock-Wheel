@@ -1,0 +1,29 @@
+# build output
+build/
+bin/
+out/
+
+# gradle
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# run directory (local test client)
+run/
+
+# private working files - do not publish
+cj.md
+zp.png
+kongdao.nbt
+kongdao_raw.nbt
+tmp/
+
+# OS junk
+Thumbs.db
+Desktop.ini
